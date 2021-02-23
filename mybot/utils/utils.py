@@ -47,7 +47,7 @@ class func():
         driver.get(url)
         time.sleep(2)
 
-        tag = "アフィリエイト"
+        tag = "プログラミング"
         find_func.send_keys(setting.tag_box, tag)
         find_func.click(setting.tag)
 
